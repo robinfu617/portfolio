@@ -12,7 +12,10 @@
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
@@ -23,16 +26,43 @@
     <div id="wrapper">
       <!-- Nav -->
       <nav id="nav">
-        <a href="#" class="fa fa-home" style="font-size:70px ;text-decoration:none;"><span>Home</span></a>
-        <a href="#work" class="fa fa-folder" style="font-size:70px ;text-decoration:none;"><span>Work</span></a>
-		<a href="#resume" class="fa fa-file"style="font-size:60px ;text-decoration:none;"
-		><span>resume</span></a
-	  >
-        <a href="#contact" class="fa fa-at" style="font-size:60px ;text-decoration:none;"
+        <a
+          href="#"
+          class="fa fa-home"
+          style="font-size: 70px; text-decoration: none"
+          ><span>Home</span></a
+        >
+        <a
+          href="#about"
+          class="fa fa-user"
+          style="font-size: 60px; text-decoration: none"
+          ><span>About</span></a
+        >
+        <a
+          href="#work"
+          class="fa fa-folder"
+          style="font-size: 70px; text-decoration: none"
+          ><span>Work</span></a
+        >
+        <a
+          href="#resume"
+          class="fa fa-file"
+          style="font-size: 60px; text-decoration: none"
+          ><span>Resume</span></a
+        >
+        <a
+          href="#contact"
+          class="fa fa-at"
+          style="font-size: 60px; text-decoration: none"
           ><span>Contact</span></a
         >
-		
-       
+        <a
+          href="#"
+          class="fa fa-globe"
+          style="font-size: 60px; text-decoration: none"
+          id="lang-toggle"
+          ><span>中文</span></a
+        >
       </nav>
 
       <!-- Main -->
@@ -40,118 +70,149 @@
         <!-- Me -->
         <article id="home" class="panel intro">
           <header>
-            <h1>Hi, I am Ruobing Fu</h1>
-            <p>I enjoy analyzing and visualizing data to make better and informed decisions
- 
-                </p>
-			<!-- <p>ruobingfu99@gmail.com</p>
-			<p>sanshuge.github</p> -->
+            <h1 class="lang-en">Hi, I am Ruobing Fu</h1>
+            <h1 class="lang-zh" style="display: none">你好，我是傅若冰</h1>
+            <p class="lang-en">
+              I enjoy analyzing and visualizing data to make better and informed
+              decisions
+            </p>
+            <p class="lang-zh" style="display: none">
+              我喜欢分析和可视化数据，以做出更好、更明智的决策。
+            </p>
           </header>
           <a href="#work" class="jumplink pic">
             <span class="arrow icon solid fa-chevron-right"
-              ><span>See my work</span></span
+              ><span class="lang-en">See my work</span
+              ><span class="lang-zh" style="display: none"
+                >查看我的作品</span
+              ></span
             >
             <img src="images/me.jpg" alt="" />
           </a>
         </article>
 
+        <!-- About -->
+        <article id="about" class="panel">
+          <header>
+            <h2 class="lang-en">About Me</h2>
+            <h2 class="lang-zh" style="display: none">关于我</h2>
+          </header>
+          <p class="lang-en">
+            I'm a recent Computer Science graduate passionate about data
+            analysis, storytelling through visuals, and creating meaningful
+            insights. With strong skills in SQL, Python, Tableau, and Power BI,
+            I’ve worked on projects ranging from customer behavior to public
+            health. I enjoy solving problems and turning raw data into
+            actionable insights.
+          </p>
+          <p class="lang-zh" style="display: none">
+            我是一名刚毕业的计算机科学专业学生，热衷于数据分析、可视化呈现和发掘有意义的洞察。
+            我熟练使用 SQL、Python、Tableau 和 Power
+            BI，曾参与多个项目，包括客户行为分析和公共健康研究。
+            我喜欢解决问题，并将原始数据转化为可执行的洞察。
+          </p>
+        </article>
+
         <!-- Work -->
         <article id="work" class="panel">
           <header>
-            <h2>Work</h2>
+            <h2 class="lang-en">Work</h2>
+            <h2 class="lang-zh" style="display: none">作品</h2>
           </header>
-          <p>
-            Here are some projects I've accomplished.
-          </p>
+          <p class="lang-en">Here are some projects I've accomplished.</p>
+          <p class="lang-zh" style="display: none">以下是我完成的一些项目。</p>
           <section>
             <div class="row">
-
               <div class="col-6 col-6-medium col-12-small">
-               
-                
-                <a href="https://public.tableau.com/app/profile/robin.fu7413/vizzes" class="image fit"
-                  >
-                                         
+                <a
+                  href="https://public.tableau.com/app/profile/robin.fu7413/vizzes"
+                  class="image fit"
+                >
                   <img src="images/tableau2.png" alt=""
-                /></a> <p>Customer Behavior Analysis with SQL and Tableau<br> </p>
+                /></a>
+                <p class="lang-en">
+                  Customer Behavior Analysis with SQL and Tableau
+                </p>
+                <p class="lang-zh" style="display: none">
+                  客户行为分析（使用 SQL 和 Tableau）
+                </p>
               </div>
               <div class="col-6 col-6-medium col-12-small">
-               
-                
-                <a href="#" class="image fit"
-                  >
+                <a href="#" class="image fit">
                   <embed
-                  src="./powerbi.pdf"
-                  width="100%"
-                  height="200px"
-                  type="application/pdf"
-                  title="resume"
-                  />                    
-                  <!-- <img src="images/powerbi1.png" alt=""
-                /> -->
-              </a> <p>Shifting Trends: Gender Distribution in Canadian Postsecondary Graduates<br> </p>
-               
-              </div>
-
-              <div class="col-6 col-6-medium col-12-small">
-               
-                <a href="https://public.tableau.com/app/profile/robin.fu7413/vizzes" class="image fit"
-                  ><img src="images/tableau1.png" alt=""
-                /></a> <p>Analysis on Covid data and visualization<br> </p>
+                    src="./powerbi.pdf"
+                    width="100%"
+                    height="200px"
+                    type="application/pdf"
+                    title="powerbi"
+                  />
+                </a>
+                <p class="lang-en">
+                  Shifting Trends: Gender Distribution in Canadian Postsecondary
+                  Graduates
+                </p>
+                <p class="lang-zh" style="display: none">
+                  变化趋势：加拿大高等教育毕业生的性别分布
+                </p>
               </div>
               <div class="col-6 col-6-medium col-12-small">
-                <a href="#" class="image fit"
-                  ><img src="images/excel1.png" alt=""
-                /></a> <p>Excel presenting sales interactively<br> </p>
-              </div>
-              <div class="col-6 col-6-medium col-12-small">
-                <a href="#" class="image fit"
-                  ><img src="images/pic04.jpg" alt=""
-                /></a> <p>IEEE uSask Branch Management System<br> </p>
-              </div>
-              <div class="col-6 col-6-medium col-12-small">
-                <a href="https://pubs.acs.org/doi/10.1021/acs.analchem.1c02125" class="image fit"
-                  ><img src="images/paper1.png" alt=""
-                /></a> <p> Metal-Mediated Polydopamine Nanoparticles–DNA Nanomachine Coupling 
-                  Electrochemical Conversion of Metal–Organic Frameworks
-                   for Ultrasensitive MicroRNA Sensing</p>
-              </div>
-              <div class="col-6 col-6-medium col-12-small">
-                <a href="https://pubs.acs.org/doi/10.1021/acsami.9b18805" class="image fit"
-                  ><img src="images/paper2.png" alt=""
-                /></a> <P>Target-Driven Cascade-Amplified Release of Loads from DNA-Gated 
-                  Metal–Organic Frameworks for Electrochemical Detection of Cancer Biomarker</P>
-              </div>
-              <!-- <div class="col-6 col-6-medium col-12-small">
-                <a href="#" class="image fit"
-                  ><img src="images/pic07.jpg" alt=""
+                <a
+                  href="https://public.tableau.com/app/profile/robin.fu7413/vizzes"
+                  class="image fit"
+                >
+                  <img src="images/tableau1.png" alt=""
                 /></a>
+                <p class="lang-en">Analysis on Covid data and visualization</p>
+                <p class="lang-zh" style="display: none">
+                  COVID 数据分析与可视化
+                </p>
               </div>
               <div class="col-6 col-6-medium col-12-small">
-                <a href="#" class="image fit"
-                  ><img src="images/pic08.jpg" alt=""
+                <a href="#" class="image fit">
+                  <img src="images/excel1.png" alt=""
                 /></a>
+                <p class="lang-en">Excel presenting sales interactively</p>
+                <p class="lang-zh" style="display: none">
+                  使用 Excel 进行交互式销售展示
+                </p>
               </div>
               <div class="col-6 col-6-medium col-12-small">
-                <a href="#" class="image fit"
-                  ><img src="images/pic09.jpg" alt=""
+                <a href="#" class="image fit">
+                  <img src="images/pic04.jpg" alt=""
                 /></a>
+                <p class="lang-en">IEEE uSask Branch Management System</p>
+                <p class="lang-zh" style="display: none">
+                  IEEE uSask 分会管理系统
+                </p>
               </div>
               <div class="col-6 col-6-medium col-12-small">
-                <a href="#" class="image fit"
-                  ><img src="images/pic10.jpg" alt=""
+                <a
+                  href="https://pubs.acs.org/doi/10.1021/acs.analchem.1c02125"
+                  class="image fit"
+                >
+                  <img src="images/paper1.png" alt=""
                 /></a>
+                <p class="lang-en">
+                  Electrochemical Conversion of MOFs for MicroRNA Sensing
+                </p>
+                <p class="lang-zh" style="display: none">
+                  金属有机框架的电化学转换用于微小RNA检测
+                </p>
               </div>
               <div class="col-6 col-6-medium col-12-small">
-                <a href="#" class="image fit"
-                  ><img src="images/pic11.jpg" alt=""
+                <a
+                  href="https://pubs.acs.org/doi/10.1021/acsami.9b18805"
+                  class="image fit"
+                >
+                  <img src="images/paper2.png" alt=""
                 /></a>
+                <p class="lang-en">
+                  Electrochemical Detection of Cancer Biomarker via MOFs
+                </p>
+                <p class="lang-zh" style="display: none">
+                  利用 MOFs 电化学检测癌症生物标志物
+                </p>
               </div>
-              <div class="col-6 col-6-medium col-12-small">
-                <a href="#" class="image fit"
-                  ><img src="images/pic12.jpg" alt=""
-                /></a>
-              </div>  -->
             </div>
           </section>
         </article>
@@ -159,41 +220,52 @@
         <!-- Contact -->
         <article id="contact" class="panel">
           <header>
-            <h2>Get in touch!</h2>
-            <br>
-            <br>
-            <div style="display: flex; align-items: center; gap: 30px;" >
-          
-            <a href="https://www.linkedin.com/in/robin-fu/" class="fa fa-linkedin"  style="font-size:36px" target="_blank">
-              <span></span>
-            </a>
-            <a href="https://github.com/sanshuge"  class="fa fa-github" style="font-size:36px" target="_blank">
-              <span></span>
-            </a>
-            <a href="mailto:ruobingfu99@gmail.com" class="fa fa-envelope-open" style="font-size:36px">
-              <span></span>
-            </a>
-          </div>
-            
-          </header>      
+            <h2 class="lang-en">Get in touch!</h2>
+            <h2 class="lang-zh" style="display: none">联系我</h2>
+            <br /><br />
+            <div style="display: flex; align-items: center; gap: 30px">
+              <a
+                href="https://www.linkedin.com/in/robin-fu/"
+                class="fa fa-linkedin"
+                style="font-size: 36px"
+                target="_blank"
+                ><span></span
+              ></a>
+              <a
+                href="https://github.com/sanshuge"
+                class="fa fa-github"
+                style="font-size: 36px"
+                target="_blank"
+                ><span></span
+              ></a>
+              <a
+                href="mailto:ruobingfu99@gmail.com"
+                class="fa fa-envelope-open"
+                style="font-size: 36px"
+                ><span></span
+              ></a>
+            </div>
+          </header>
         </article>
-      
-      <!-- Resume -->
-	  <article id="resume" class="panel">
-		<header>
-		  <h2>Resume</h2>	  
-		</header>
-		<embed
-		src="./resume.pdf"
-		width="100%"
-		height="600px"
-		type="application/pdf"
-		title="resume"
-	  />
-	   
-	  </article>
 
-    
+        <!-- Resume -->
+        <article id="resume" class="panel">
+          <header>
+            <h2 class="lang-en">Resume</h2>
+            <h2 class="lang-zh" style="display: none">简历</h2>
+          </header>
+          <embed
+            src="./resume.pdf"
+            width="100%"
+            height="600px"
+            type="application/pdf"
+            title="resume"
+          />
+        </article>
+      </div>
+      <!-- End of Main -->
+    </div>
+    <!-- End of Wrapper -->
 
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
@@ -201,5 +273,25 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+      document
+        .getElementById("lang-toggle")
+        .addEventListener("click", function () {
+          const enElements = document.querySelectorAll(".lang-en");
+          const zhElements = document.querySelectorAll(".lang-zh");
+
+          enElements.forEach(
+            (el) =>
+              (el.style.display = el.style.display === "none" ? "" : "none")
+          );
+          zhElements.forEach(
+            (el) =>
+              (el.style.display = el.style.display === "none" ? "" : "none")
+          );
+
+          const span = this.querySelector("span");
+          span.textContent = span.textContent === "中文" ? "English" : "中文";
+        });
+    </script>
   </body>
 </html>
